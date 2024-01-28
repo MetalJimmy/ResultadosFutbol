@@ -1,5 +1,5 @@
 <?php 
 
-echo "hola";
+include "controladores/Enrutador.php";
 
 ?>

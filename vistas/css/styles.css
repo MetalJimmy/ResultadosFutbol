@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Estilos para el contenedor */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Alineación central del contenido */
+}
+
+h1, h2 {
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #f2f2f2;
+}
+
+table td {
+    background-color: #fff;
+}
+
+table th:first-child,
+table td:first-child {
+    border-top-left-radius: 8px;
+}
+
+table th:last-child,
+table td:last-child {
+    border-top-right-radius: 8px;
+}
+
+table td:last-child {
+    border-bottom-right-radius: 8px;
+}
+
+table td:first-child {
+    border-bottom-left-radius: 8px;
+}
+
+h2 + table {
+    margin-top: 10px;
+}
+
+p {
+    color: #666;
+}
+
+
+
+/* Estilos para el botón Simular Resultado */
+#simularResultado {
+    background-color: #4CAF50; /* Color de fondo verde */
+    color: white; /* Color del texto blanco */
+    padding: 12px 24px; /* Espacio interno del botón */
+    font-size: 16px; /* Tamaño de la fuente */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados */
+    cursor: pointer; /* Cursor al pasar sobre el botón */
+    transition: background-color 0.3s ease; /* Transición suave para el cambio de color de fondo */
+    margin-top: 20px; /* Espacio superior para separar el botón del contenido superior */
+}
+
+/* Cambio de color al pasar el cursor sobre el botón */
+#simularResultado:hover {
+    background-color: #45a049; /* Color de fondo verde oscuro */
+}
+
